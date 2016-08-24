@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.my.radiobutton.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/framelayout_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radioButton_main_tuijian"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rb_tuijian"
+            android:button="@null"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/radioButton_main_shujia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rb_shujia"
+            android:button="@null"
+            />
+        <RadioButton
+            android:id="@+id/radioButton_main_fenlei"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rb_fenlei"
+            android:button="@null"
+            />
+        <RadioButton
+            android:id="@+id/radioButton_main_gengduo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rb_gengduo"
+            android:button="@null"
+            />
+    </RadioGroup>
+</LinearLayout>
